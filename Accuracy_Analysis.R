@@ -2,9 +2,6 @@ library(tidyverse)
 library(readxl)
 
 ###### Read Data ######
-
-setwd("Emory_Projects/Anthony_Mendel/")
-
 human = readRDS("Data/Final_Data/human_analytic.RDS")
 aug = readRDS("Data/Final_Data/aug_analytic.RDS")
 resolve = readRDS("Data/Final_Data/resolve_analytic.RDS")
