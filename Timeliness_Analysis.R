@@ -1,8 +1,6 @@
 library(tidyverse)
 library(readxl)
 
-setwd("Emory_Projects/Anthony_Mendel/")
-
 ###### Read and Process Responses ######
 times = readRDS("Data/Final_Data/adjusted_times.RDS")
 
