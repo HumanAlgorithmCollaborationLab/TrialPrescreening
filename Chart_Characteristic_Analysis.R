@@ -3,8 +3,6 @@ library(readxl)
 library(lmerTest)
 library(stringr)
 
-setwd("Emory_Projects/Anthony_Mendel/")
-
 ##########################################
 ### Prepare Data                       ###
 ##########################################
