@@ -1,32 +1,22 @@
 # Trial Prescreening
 
-This repository contains documentation and resources related to the trial prescreening process. It currently includes a PDF guide outlining essential steps and best practices for screening participants before they are enrolled in a study or clinical trial.
-
+This repository contains documentation and resources related to the trial prescreening process.
 
 ## Contents
 
-- **PDF Guide**  
-  - A comprehensive document (PDF) that details how to:
-    - Identify potential participants based on inclusion/exclusion criteria.
-    - Perform initial screening tasks efficiently.
-    - Document relevant clinical or demographic information.
-    - Follow regulatory and ethical guidelines.
-
-
 ## How to Use
 
-1. **Download the PDF**  
-   - Click on the PDF file in this repository (e.g., `TrialPrescreeningGuide.pdf`).
-   - Select **Download** to save it locally.
+1. **System Requirements**  
+   - All analyses were conducted using R version 4.3.0. No additional software dependencies or non-standard hardware were required. The code has been tested and confirmed to run on systems with R 4.3.0 installed.
    
-2. **Open and Review**  
-   - Open the PDF using any standard PDF reader.
-   - Follow the outlined steps for prescreening, ensuring all required fields or criteria are checked.
+2. **Installation Guide**  
+   - To replicate the analysis, install R version 4.3.0 from https://cran.r-project.org. Once R is installed, open an R session and install any required packages using install.packages(). Installation on a standard desktop computer with an internet connection typically takes less than 15 minutes, including downloading R and installing any necessary packages.
 
-3. **Implement the Guidelines**  
-   - Integrate the prescreening checklist into your existing workflow.
-   - Refer back to the PDF regularly for updates or best practice reminders.
+3. **Demo**  
+   - The R code files and project data are found in the project Github (https://github.com/HumanAlgorithmCollaborationLab/TrialPrescreening/tree/main). The code file Analytic_Data_Creation needs to be run first, which generates analytic data used in the statistical analyses. These analyses are in separate, standalone R scripts that output results found in the manuscript. After downloading the code and data files, the R scripts have a runtime of less than 5 minutes on a standard desktop computer.
 
+4. **Instructions for Use**  
+   - Users should download the code and data files as is from the project Github, maintaining file structure. Then users will run the R script Analytic_Data_Creation to generate analytic data from raw data. Other R scripts can be run afterwards to produce standalone analysis results (i.e. the primary accuracy outcome).
 
 ## Contributions & Updates
 
